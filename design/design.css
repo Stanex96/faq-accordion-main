@@ -121,7 +121,6 @@ body {
         font-size: 12.5px;
     }
 
-    /* Ajuster la largeur de la question si nécessaire */
     .question {
         width: auto;
         padding: 0.5rem;
