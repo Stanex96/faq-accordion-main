@@ -1,0 +1,90 @@
+:root {
+    --white:         hsl(0, 0%, 100%);
+    --lightPink:     hsl(275, 100%, 97%);
+    --grey:          rgb(157, 157, 157);
+    --grayishPurple: hsl(292, 16%, 49%);
+    --darkPurple:    hsl(292, 42%, 14%);
+    --attribution:   hsl(244, 80%, 32%);
+}
+
+@font-face {
+    font-family: workSans;
+    src: url(../assets/fonts/static/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: workSansBold;
+    src: url(../assets/fonts/static/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: workSansSemiBold;
+    src: url(../assets/fonts/static/WorkSans-SemiBold.ttf);
+}
+
+.attribution {
+    font-size: 16px;
+    text-align: center;
+    color: var(--attribution);
+}
+
+.attribution a {
+    transition: color 0.3s ease;
+}
+
+.attribution a:hover {
+    color: rgb(0, 183, 255);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1.5rem;
+    background-color: var(--lightPink);
+    background-image: url(../assets/images/background-pattern-desktop.svg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+
+.main {
+    width: 575px;
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--white);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 27.5px;
+    font-family: workSansBold;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hiddenText {
+    color: var(--grey);
+    display: none;
+}
+
+.minus-icon {
+    display: none;
+}
