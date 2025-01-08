@@ -23,6 +23,7 @@
 }
 
 .attribution {
+    font-size: 11px !important;
     text-align: center;
     color: var(--attribution);
 }
@@ -47,7 +48,7 @@ body {
     background-position: top;
     background-size: contain;
     background-repeat: no-repeat;
-    font-size: 13.5px;
+    font-size: 16px;
 }
 
 .main {
